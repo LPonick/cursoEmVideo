@@ -1,4 +1,4 @@
-### Capitulo-4 Aula2 exercicios
+### Capitulo-4 exercicios
 
 Foi criado e explicado o basico sobre o html.
 
