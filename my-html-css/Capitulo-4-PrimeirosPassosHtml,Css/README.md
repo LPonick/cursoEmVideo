@@ -1,3 +1,5 @@
+# Diretamente ligado ao exercicio 001
+
 # Respostas
 
 1-D
