@@ -1,0 +1,3 @@
+# adendos
+
+Esse desafio foi feito por mim, obviamente, ou sejá eu nao fiz _somento_ o que se pede e isso vale pare _*todos*_ os desafios...
