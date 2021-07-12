@@ -1,0 +1,18 @@
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+p.minhabio {
+  font-size: 20px;
+  margin: 10px;
+}
+img.minhafoto {
+  float: left;
+}
+div.cabecalho {
+  text-align: left;
+  float: center;
+  padding: 20px;
+}
