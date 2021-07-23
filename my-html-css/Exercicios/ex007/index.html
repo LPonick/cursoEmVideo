@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Tipos de formatações</h1>
+    <h2>Codigo-Fonte</h2>
+    <!--Font mono espaçada-->
+    <p>podemos usar o um <abbr title="Code">comando</abbr> <code>Para deixar os epaçamentos iguais abcdefghijklmnopqrstuvwxyz</code></p>
+    <!--Formatação de codigo-->
+    <!--Comando para quebrar espaçamentos mais rapido == "shift tab"-->
+    <pre>
+        <code style="font-size: 15px;">
+using System;
+Class numero
+{<!--sim eu sei que precisa fazer uma conversao de string para int :D-->
+    void static Main()
+    {
+        Conosole.WriteLine("Escreva um numero");
+        int numero = Conosole.ReadLine();
+        numero = numero / 2;
+        if(numero == 0)
+        {
+            Conosole.WriteLine("Seu número é par");
+        }
+        else
+        {
+            Conosole.WriteLine("Seu número é impar");
+        }
+    }
+}
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria um monge budista <q>Um fator exato,temos medo de nos mesmos.
+    <h2>Citações completas</h2>
+    <p>Como diaria esse mesmos abio budista</p>
+    <blockquote cite="https://www.pensador.com/frase/MTQyMDQyNA/">
+        Um fator exato,temos medo de nos mesmos.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Podemos usar Abreviações em <abbr title="HyperText Mark Language">HTML</abbr></p>
+    <h2 style="color: 
+    rgb(87, 87, 0);">Textos invertidos</h2>
+    <p> <bdo dir="rtl">isso sim é a coisa mais util de todo o HTML acho que já posso parar de estudalo para ir trabalhar!</bdo></p>
+</body>
+</html>

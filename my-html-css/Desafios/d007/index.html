@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="incone.ico" type="image/x-icon">
+    <title>Desafio imagen flexivel</title>
+</head>
+<body>
+    <h1>Imagen flexivel</h1>
+    <p>Essa imagem está flexivel ao seu tamanho de tela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="mini300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="mid700.jpg" type="image/jpg">
+        <img src="larg1000.jpg" alt="imagem flexivel">
+    </picture>    
+</body>
+</html>
