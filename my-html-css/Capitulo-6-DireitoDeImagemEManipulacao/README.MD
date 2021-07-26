@@ -10,16 +10,16 @@
 
 [Pexels](https://www.pexels.com/pt-br/)
 
-### Site do gimp
+#### Site do gimp
 
 [Gimp](https://www.gimp.org)
 
-### Site de icones
+#### Site de icones
 
 [Iconarchive](https://iconarchive.com)
 [Favicon](https://favicon.io)
 
-# Respostas
+## Respostas
 
 1-B
 
