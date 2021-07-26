@@ -1,10 +1,10 @@
 # Esse capitulo esta interligado com o exercicio 003 ate 004
 
-# Sites ditos
+## Sites ditos
 
-## Sites mencionados
+### Sites mencionados
 
-### Sites de imagens
+#### Sites de imagens
 
 [Unsplash](https://unsplash.com)
 
