@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(41, 41, 41);
+}
+h1{
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.saas{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+.voltar{
+    margin-top: 15px;
+}
+.master{
+    margin-left: 28.125rem;
+}

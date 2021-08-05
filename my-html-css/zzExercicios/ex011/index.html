@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/arquivos-P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/arquivos-M.png" type="image/png">
+        <img src="imagens/arquivos-G.png" alt="imagem flexivel">
+    </picture>
+    <h1>Aprendendo midias</h1>
+    <!--
+        esse é um metodo de colocar audios + controle desse audio no site
+    <audio src="midia/music.mp3" autoplay controls>
+
+    </audio>
+    -->
+    <audio preload="metadata" controls>
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <source src="midia/music.ogg" type="audio/ogg"> 
+        <source src="midia/music.wav" type="audio/wav">
+        <p>infelizmente seu navegador não é compativel com a musica <a href="midia/music.mp3">click aqui</a> para baixala</p> 
+    </audio>
+    <audio>
+        <source src="midia/podCast.mp3" type="audio/mpeg">
+        <source src="midia/podCast.ogg" type="audio/ogg"> 
+        <source src="midia/podCast.wav" type="audio/wav">
+        <p>infelizmente seu podcast não está compativel ao seu navegadoor <a href="midia/podCast.mp3">click aqui</a>para baixalo</p>
+    </audio>
+</body>
+</html>
