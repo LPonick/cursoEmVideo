@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    background-color: #A700F5;
+    font: 16px Arial,sans-serif;
+    background-image: linear-gradient(40deg  ,#670097,#5c008a);
+}
+h1{
+    color: #500075;
+}
+.html,span{
+    color: rgb(194, 4, 99);
+}
+.titoloAssunto{
+    color: #650094(9, 175, 9);
+    text-shadow: #1d002a65 1px 1px 1px;
+}
+h2{
+    color: black;
+}
+.css,span{
+    color: rgb(32, 136, 139);
+}
+#principal{
+    text-align: center;
+    font: 500 italic  3rem 'EB Garamond',serif;
+    background-color: indigo;
+    border-radius: 10px;
+    color: rgba(233, 233, 233, 0.993);
+}
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.52);
+    border-radius: 10px;
+    text-align: justify;
+}

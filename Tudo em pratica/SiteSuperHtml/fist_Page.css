@@ -1,0 +1,57 @@
+/*
+Colors
+#0896FC:Blue_Core
+#21A1FC:Blue_second
+#FC21F0:Purple
+#FCA421:Orenge
+#5CFC14:Green
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.Title{
+    margin-top: 6px;
+    margin-bottom: 1px;
+    height: 60vh;
+    width: 95%;
+    background-image: linear-gradient(to left,#0d68a8,#21A1FC);
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 10px;
+}
+.Title h1{
+    color: #56e015;
+    /*text-shadow: 1px 1px 4px #0000005b;*/
+    padding-top: 4%;
+    padding-right: 7%;
+    font-size: 10vh;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family:'Times New Roman', serif;
+    position: absolute;
+    padding-left: 40%;
+    text-align: center;
+}
+.Title h1 strong{
+    color: #74fa36;
+}
+.Title h2{
+    font: normal 1.5rem 'Courgette', cursive;
+    text-align: left;
+}
+.Button{
+    margin: 20px;
+    margin-top: 20000px;
+    background-color: #FC21F0;
+}
+.ImageT{
+    width: 35vh;
+    transform: rotate(-25deg);
+    display:flex;
+    align-items: center;
+    padding-top: 8%;
+}
