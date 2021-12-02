@@ -13,9 +13,9 @@ Colors
     padding: 0%;
 }
 body{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(185, 185, 185);
 }
-.Title{
+header{
     margin-top: 6px;
     margin-bottom: 1px;
     height: 60vh;
@@ -23,23 +23,24 @@ body{
     background-image: linear-gradient(to left,#0d68a8,#21A1FC);
     border-bottom-right-radius: 40px;
     border-top-right-radius: 10px;
+    display: block;
+    box-shadow: 0px black;
 }
-.Title h1{
+#imgTitle{
+    margin: 30px;
+}
+header h1{
     color: #56e015;
-    /*text-shadow: 1px 1px 4px #0000005b;*/
-    padding-top: 4%;
-    padding-right: 7%;
     font-size: 10vh;
-    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
     font-family:'Times New Roman', serif;
-    position: absolute;
-    padding-left: 40%;
+    display: inline-block;
     text-align: center;
+    margin: auto;
 }
-.Title h1 strong{
+header h1 strong{
     color: #74fa36;
 }
-.Title h2{
+header h2{
     font: normal 1.5rem 'Courgette', cursive;
     text-align: left;
 }
@@ -50,8 +51,8 @@ body{
 }
 .ImageT{
     width: 35vh;
-    transform: rotate(-25deg);
-    display:flex;
-    align-items: center;
-    padding-top: 8%;
+    transform: rotate(-25deg);;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 10%;
 }

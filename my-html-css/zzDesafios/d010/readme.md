@@ -1,0 +1,2 @@
+# Dois?
+são dois por conta que, o primeiro eu o fiz basicamente, ele, completamente sozinho usando apenas pesquisas ao google e o segundo eu estou fazendo em conjunto ao [CursoEmVideo](https://github.com/cursoemvideo) :+1.

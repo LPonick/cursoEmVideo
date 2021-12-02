@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body{
+            font:normal 16px arial,sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(90, 90, 90);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        a:active{
+            color: rgba(90, 90, 90, 0.178);
+        }
+        a::after{
+            content: '[Link]';
+            color: rgba(14, 14, 172, 0.26);
+            font-family: monospace;
+            font-size: 0.7rem;
+            text-decoration: none;
+        }
+        a::before{
+            content: 'Meu ';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Aprendendo links</h1>
+    <ul>
+        <li><a href="https://github.com/LPonick/cursoEmVideo" target="_blank">GitHub</a></li>
+        <li><a href="https://github.com/LPonick/cursoEmVideo" target="_blank">youtube</a></li>
+        <li><a href="https://github.com/LPonick/cursoEmVideo" target="_blank">a</a></li>
+    </ul>
+</body>
+</html>
