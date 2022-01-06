@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --font-title:'Passion One','cursive';
+    --font-title2: Verdana, Geneva, Tahoma, sans-serif;
+    --font-main: 'Cookie', cursive;
+}
+header{
+    background-color: black;
+    padding: 62px;
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 700;
+    font-family: var(--font-title);
+    font-variant: small-caps
+}
+header p{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+header p a{
+    color:white;  
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+header p a:hover{
+    text-decoration: underline;
+} 
+main p{
+    margin: 60px 30px;
+    line-height: 10vw;
+    font-family: var(--font-main);
+    font-size: 6vw;
+    font-style: italic;
+}
+div#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div#imagem1 p{
+    color: white;
+    background-color: #000000a8;
+    padding: 15px;
+    display: inline-block;
+}
+div#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#imagem2 p{
+    color: white;
+    background-color: #000000a8;
+    display: inline-block;
+    padding: 15px;    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    padding: 8px;
+    font-family: var(--font-title2);
+}
