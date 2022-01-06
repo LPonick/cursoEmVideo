@@ -45,19 +45,19 @@ main p{
     font-size: 6vw;
     font-style: italic;
 }
-div#imagem1{
+section#imagem1{
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-div#imagem1 p{
+section#imagem1 p{
     color: white;
     background-color: #000000a8;
     padding: 15px;
     display: inline-block;
 }
-div#imagem2{
+section#imagem2{
     background-image: url(imagens/background002.jpg);
     background-repeat: no-repeat;
     background-position: center center;
