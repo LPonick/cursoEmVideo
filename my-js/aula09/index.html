@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellow Word</title>
+    <style>
+        body{
+            background-color: rgb(137, 255, 137);
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.561);
+            text-transform: capitalize;
+        }
+        div.backGround{
+            background-color: rgba(255, 255, 255, 0.239);
+            display: inline-block;
+            padding: 2px 10px;
+        }
+    </style>
+</head>
+<body>  
+    <div class="backGround">
+        <h1>Starting the study of DOM</h1>
+        <p>here go the resultad</p>
+        <p>lerning how to user the <strong>DOM</strong> in javascript</p>
+        <div class="Obj">click in me</div>
+    </div>
+    <script>
+        /*
+        Document
+        Object
+        Model
+        */
+        var p1 =window.document.querySelectorAll('div.Obj')[0]
+        //querySelector('div.Obj')
+        //getElementsByClassName('Obj')[0]
+        //getElementsByName('Obj')[0] using name
+        //getElementsByTagName('p')[1]; using tag
+        var corpo = window.document.body
+        p1.style.color="Black"
+        window.document.write(p1.innerHTML)
+    </script>
+</body>
+</html>

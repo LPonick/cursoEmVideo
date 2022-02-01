@@ -13,8 +13,9 @@
     --font-main: 'Cookie', cursive;
 }
 header{
-    background-color: black;
+    background-color: rgb(73, 73, 73);
     padding: 62px;
+    font: normal normal 10px ;
 }
 header h1{
     color: white;

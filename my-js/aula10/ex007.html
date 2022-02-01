@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-transform: capitalize;
+            text-align: center;
+        }
+        strong{
+            background-color: rgba(88, 255, 88, 0.466);
+            padding: 1px 2px;
+        }
+        body{
+            background-image: linear-gradient(to bottom, rgb(0, 0, 255), rgb(129, 129, 255));
+            background-repeat:no-repeat;
+            background-size: 100vw 100vh
+        }
+        input{
+            margin-bottom: 10px;
+            width: 45vh;
+        }
+        div#putingsValues input{
+            height: 5vh;
+        }
+        input#adding{
+            height: 12vh;
+            font-size: 5vh;
+        }
+
+        h1{
+            font-size: 14vh;
+        }
+        p{
+            font-size: 8vh;;
+        }
+    </style>
+</head>
+<body>
+    <h1>adding values</h1>
+    <div id="inputs">
+        <div id="putingsValues">
+            <input type="number" name="number1" id="number1">
+            <input type="number" name="number2" id="number2">
+        </div>
+        <input type="button" value="adding" onclick="somar()" id="adding">
+    </div>
+    <div >
+        <p id="resolution">Resolution:</p>
+    </div>
+    <script>
+        function somar(){
+            var txt01=window.document.getElementById('number1')
+            var txt02=window.document.getElementById('number2')
+            var n1 = Number(txt01.value)
+            var n2 = Number(txt02.value)
+            var resolution = n1 + n2
+            var resolvInScream = window.document.getElementById('resolution')
+
+            resolvInScream.innerHTML = `your calc of <strong>${n1}</strong> + <strong>${n2}</strong> is equal <strong>${resolution}</strong>`
+        }
+    </script>
+</body>
+</html>
