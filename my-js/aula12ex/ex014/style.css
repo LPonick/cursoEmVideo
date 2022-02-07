@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(67, 149, 255);
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+}
+header h1{
+    padding: 20px;
+    text-transform: capitalize;
+}
+main{
+    /*Criação do "cubo"*/
+    background-color: white;
+    width: 50vw;
+    border-radius: 10px;
+    /*M.P.B*/
+    margin: auto;
+    padding: 10px;
+    /*Sombriamento*/
+    box-shadow:3px 3px 13px 7px #0000003d;
+}
+div{
+    text-align: center;
+}
+#txt{
+    margin-bottom: 20px;
+    white-space : nowrap;
+    font-size: 2vw;
+}
+#imgs{
+    width: 35vw;
+}
+footer{
+    text-align: center;
+    font-size: 4vh;
+    font-style: italic;
+    color: white;
+}
+@media (max-width:600px){
+    header{
+        font-size: 5.5vw;
+    }   
+    main{
+        width: 90vw;
+        height: 90vw;
+    }
+    #imgs{
+        width: 60vw;
+        margin-top: 6vw;
+    }
+    #txt{
+        font-size: 5vw;
+    } 
+}

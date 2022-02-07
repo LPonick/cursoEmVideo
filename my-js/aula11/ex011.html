@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contry test</title>
+    <style>
+        *{
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="txt"></h1>
+    <script>
+        var contrytxt = window.prompt('When is your contry born').toUpperCase()
+        window.alert(contrytxt)
+        if(contrytxt == "BRAZIL" || contrytxt =="BRASIL" || contrytxt=="BR")
+        {
+            window.document.getElementById("txt").innerHTML = "You are not foreign"
+        }
+        else
+        {
+            window.document.getElementById("txt").innerHTML = "You are foreign"
+        }
+    </script>
+</body>
+</html>
