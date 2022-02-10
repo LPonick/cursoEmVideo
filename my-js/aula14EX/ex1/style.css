@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(67, 149, 255);
+}
+header{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+}
+main{
+    /*Criação do "cubo"*/
+    background-color: white;
+    width: 75vw;
+    border-radius: 10px;
+    min-height: 10vh;
+    max-height: 10000vh;
+
+    /*M.P.B*/
+    margin: auto;
+    padding: 10px;
+
+    /*Sombriamento*/
+    box-shadow:3px 3px 13px 7px #0000003d;
+}
+main div{
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.numbers{
+    margin: 5px 10px;
+}
+footer{
+    text-align: center;
+    font-size: 5vh;
+    font-style: italic;
+    color: white;
+}
+#txtState{
+    font-size: 24px;
+}
