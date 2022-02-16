@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(67, 149, 255);
+}
+header{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+}
+main{
+    /*Criação do "cubo"*/
+    background-color: white;
+    width: 80vw;
+    border-radius: 10px;
+
+    /*M.P.B*/
+    margin: auto;
+    padding: 10px;
+
+    /*Sombriamento*/
+    box-shadow:3px 3px 13px 7px #0000003d;
+}
+#seletor{
+    min-width: 190px;
+}
+footer{
+    text-align: center;
+    font-size: 5vh;
+    font-style: italic;
+    color: white;
+}
