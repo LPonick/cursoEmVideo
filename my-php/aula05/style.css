@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body ,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(120, 255, 42),rgb(216, 255, 44));
+}
+#container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: ". t ."
+                         ". d ."
+                         ". . .";
+}
+#hotTitle{
+    grid-area: t;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1vw;
+}
+
+body > div > div{
+    background-color: rgba(255, 255, 255, 0.726);
+    grid-area: d;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
